@@ -3,8 +3,9 @@ Author: Mel Ho
 Website: www.mel-ware.com
 Created: 07/03/2023
 
-String funcationality for maya object paths
+String functionality for maya object paths
 """
+
 
 def namespace(name):
     """ This function will return the namespace if any existr.
@@ -50,6 +51,7 @@ def baseName(name):
         return name
 
     return name.split("|")[-1].split(":")[-1]
+
 
 def rootName(name):
     """ Strips grouping information from a given full path.
