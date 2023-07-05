@@ -11,12 +11,12 @@ from maya import cmds as m
 from modules.utils import open_maya_api, path
 
 
-class Dep_Node(object):
+class DepNode(object):
     """ Class based way of calling the information that we need to deal with in Maya from base nodes
         with no object dependency.
 
         Args:
-            node (node/str): Takes either a ready-made base node or the name of one to create
+            node (node /str): Takes either a ready-made base node or the name of one to create
             nodeType (str): Used for creating a specified node type. (optional)
 
         Example:
